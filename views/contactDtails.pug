@@ -1,0 +1,29 @@
+html 
+head 
+title 
+body
+include boostrap.html
+
+//-  each i in file 
+//-     h1=i
+table.table.table-striped 
+    thead 
+        tr 
+            th(scope='col') First Name
+            th(scope='col') Last Name
+            th(scope='col') Email
+            th(scope='col') Conrty 
+            th(scope='col') Subject 
+    -for(let i=0; i < file.length; i++){
+        -h=file[i].split(",")
+        tbody 
+            tr 
+                th(scope='row')
+                td=h[0]
+                td=h[1]
+                td=h[2]
+                td=h[3]
+                td=h[4]
+    -}
+
+

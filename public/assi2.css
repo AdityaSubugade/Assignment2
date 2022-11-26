@@ -1,0 +1,25 @@
+.bgimage{
+    background: url("/images/bag.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 560px;
+}
+.headerset{
+    padding-top: 100px; 
+    box-sizing: border-box;
+}
+.headerset h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.headerset h2{
+    font-size: 40px;
+   
+}
+.ourservices{
+    padding: 120px 90px;
+}
+.port .row{
+ padding-left: 100px;
+}
